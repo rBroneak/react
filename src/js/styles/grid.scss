@@ -17,6 +17,10 @@
 		}
 	}
 }
+.align-left-top {
+	display: flex;
+	justify-content: flex-start;
+}
 .col {
 	width: 100%;
 	padding: 0;

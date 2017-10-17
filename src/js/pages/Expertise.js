@@ -3,14 +3,6 @@ import React from "react";
 import BobbyService from '../data/bobby_service'
 import ListMaker from '../components/listMaker'
 
-const divStyle = {
-    display: 'flex',
-    alignItems: 'top',
-    justifyContent: 'flex-start'
-};
-const listSpace = {
-    'paddingRight': '4vw'
-};
 const quals = BobbyService.getQualifications();
 const leadin = quals.find(x => x.leadin === 'leadin');
 const qualities = quals.find(x => x.qualityList === 'qualityList').qualities;
@@ -39,9 +31,9 @@ const Expertise = () => (
       <h1>{leadin.title}</h1>
       <h2>{leadin.intro}</h2>
       <hr/>
-       <div style={divStyle}>
-            <ListMaker style={listSpace} list={list1} />
-            <ListMaker style={listSpace} list={list2} />
+       <div class="align-left-top">
+            <ListMaker list={list1} />
+            <ListMaker list={list2} />
        </div>
     </section>
 )

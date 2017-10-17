@@ -62,6 +62,12 @@ h1, .h1, h4, h6, p strong, li strong {
 p {
 	margin-bottom: 20px;
 }
+ul {
+	margin-right: 4vw;
+	li {
+		padding: .5vh 0
+	}
+}
 ol { list-style-type: decimal }
 li {
 	color: $black

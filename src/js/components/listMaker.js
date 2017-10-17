@@ -2,7 +2,7 @@ import React from "react";
 
 function ListMaker(props){
     return (
-        <ul style={props.listSpace}>
+        <ul>
             {
                 props.list.map((listValue, index) => {
                     return <li key={index}>{listValue}</li>;
