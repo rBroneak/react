@@ -6,7 +6,7 @@ const bio = BobbyService.getInfo();
 const leadin = bio.find(x => x.leadin === 'leadin');
 
 const Bio = () => (
-    <section class="container">
+    <section className="container">
         <h1>{leadin.title}</h1>
         <h2>{leadin.intro}</h2>
         <hr/>

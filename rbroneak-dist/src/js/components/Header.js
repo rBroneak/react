@@ -10,7 +10,7 @@ const linkSyle = {
 }
 
 const Header = () => (
-    <div class="container">
+    <div className="container">
         <header style={headerStyle}>
           <NavLink exact={true} activeClassName={'active'} style={linkSyle} to="/" >Bio</NavLink>
           <NavLink activeClassName={'active'} style={linkSyle} to="/expertise">Expertise</NavLink>

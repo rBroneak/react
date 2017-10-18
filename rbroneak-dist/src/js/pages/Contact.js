@@ -4,7 +4,6 @@ import BobbyService from '../data/bobby_service'
 
 const contactInfo = BobbyService.getContactInfo();
 const method = contactInfo.find(x => x.type === 'type');
-const linked = contactInfo.find(x => x.method === 'Linked In');
 const leadin = contactInfo.find(x => x.leadin === 'leadin');
 
 const Contact = () => (

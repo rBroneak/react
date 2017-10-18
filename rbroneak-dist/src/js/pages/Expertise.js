@@ -9,8 +9,10 @@ const qualities = quals.find(x => x.qualityList === 'qualityList').qualities;
 let list1 = [];
 let list2 = [];
 
+// eslint-disable-next-line
 const MakeSeperateLists = function() {
 
+    // eslint-disable-next-line
     qualities.map(function(object, i) {
         if (i < qualities.length / 2) {
             list1.push(object)
@@ -20,18 +22,18 @@ const MakeSeperateLists = function() {
     })
 
     return ([
-        list1.filter(v=>v!='').reverse(),
-        list2.filter(v=>v!='').reverse()
+        list1.filter(v=>v!=='').reverse(),
+        list2.filter(v=>v!=='').reverse()
     ]);
 };
 MakeSeperateLists();
 
 const Expertise = () => (
-    <section class="container">
+    <section className="container">
       <h1>{leadin.title}</h1>
       <h2>{leadin.intro}</h2>
       <hr/>
-       <div class="align-left-top">
+       <div className="align-left-top">
             <ListMaker list={list1} />
             <ListMaker list={list2} />
        </div>

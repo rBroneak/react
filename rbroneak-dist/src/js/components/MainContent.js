@@ -6,7 +6,7 @@ import Bio from "../pages/Bio";
 import Clients from "../pages/Clients.js";
 import Contact from "../pages/Contact";
 import Expertise from "../pages/Expertise";
-import Missed from "../pages/missed";
+import Missed from "../pages/Missed";
 
 const MainContent = () => (
     <main>

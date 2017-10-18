@@ -8,7 +8,9 @@ const clients = clientData.find(x => x.clientList === 'clientList').clients;
 const leadin = clientData.find(x => x.leadin === 'leadin');
 
 let list = [];
+// eslint-disable-next-line
 const MakeList = function() {
+    // eslint-disable-next-line
     clients.map(function(object, i) {
         list.push(object)
     });
@@ -20,7 +22,7 @@ const MakeList = function() {
 MakeList();
 
 const Clients = () => (
-    <section class="container">
+    <section className="container">
         <h1>{leadin.title}</h1>
         <h3>{leadin.intro}</h3>
         <hr/>
