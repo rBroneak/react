@@ -65,7 +65,10 @@ p {
 ul {
 	margin-right: 4vw;
 	li {
-		padding: .5vh 0
+		padding: .5vh 0;
+		&:first-child{
+			padding-top: 0;
+		}
 	}
 }
 ol { list-style-type: decimal }

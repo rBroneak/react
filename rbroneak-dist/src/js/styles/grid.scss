@@ -4,6 +4,19 @@
 	@include cont();
 	@include clearfix();
 }
+.primary-content {
+	padding: 1vh 0;
+}
+.align-left-top {
+	display: flex;
+	justify-content: flex-start;
+}
+.flex-container {
+	display: flex;
+	&.space-between {
+		justify-content: space-between;
+	}
+}
 // GRID
 .full-width {
 	width: 100%;
@@ -16,12 +29,6 @@
 			padding-left: 0;
 		}
 	}
-}
-
-
-.align-left-top {
-	display: flex;
-	justify-content: flex-start;
 }
 .col {
 	width: 100%;

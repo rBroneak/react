@@ -9,18 +9,15 @@
 html, body {
 	height:100%;
 }
-body {
-
-}
 // padding for the fixed nav
 .container {
 	@include cont();
 }
-
 .site {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	
 }
 .site-content {
 	flex: 1;
@@ -59,3 +56,10 @@ a, button, [class^=icon]{
 
 // COMPONENTS
 // header
+.global-header,
+.global-footer {
+	padding: 20px 0;
+	a {
+		margin-right: 20px;
+	}
+}

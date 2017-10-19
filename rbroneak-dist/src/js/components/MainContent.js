@@ -15,7 +15,7 @@ const MainContent = () => (
             <Route exact path='/expertise' component={PageShell(Expertise)}/>
             <Route exact path='/clients' component={PageShell(Clients)}/>
             <Route exact path='/contact'component={PageShell(Contact)}/>
-            <Route component={PageShell(Missed)} />
+            <Route component={PageShell(Bio)} />
         </Switch>
     </main>
 )
