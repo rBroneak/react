@@ -2,11 +2,12 @@
   "name": "rbroneak-dist",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://rbroneak.com/react/",
   "dependencies": {
+    "@types/react": "^16.0.18",
     "history": "^4.7.2",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.1",
-    "react": "^16.0.0",
     "react-addons-css-transition-group": "^15.6.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.0.0",
@@ -20,6 +21,8 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react": "^16.0.0"
   }
 }
-

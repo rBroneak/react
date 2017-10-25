@@ -7,7 +7,7 @@ const method = contactInfo.find(x => x.type === 'type');
 const leadin = contactInfo.find(x => x.leadin === 'leadin');
 
 const Contact = () => (
-    <section class="container">
+    <section className="container">
         <h1>{leadin.title}</h1>
         <h2>{leadin.intro}</h2>
         <hr/>
@@ -16,9 +16,8 @@ const Contact = () => (
                 <p key={index}>{item.p}</p>
             ))
         }
-        <p>
-            <a href={'mailto:'+method.emailUrl}>{method.email}</a> <a target="_blank" href={method.linkedUrl}>{method.linked}</a>
-        </p>
+
+        <a href={'mailto:'+method.emailUrl}>{method.email}</a> <a target="_blank" href={method.linkedUrl}>{method.linked}</a>
 
     </section>
 )

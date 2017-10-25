@@ -17,7 +17,6 @@ const Bio = () => (
                 ))
             }
         </ul>
-        <NavLink to="/contact">Contact</NavLink>
     </section>
 )
 export default Bio

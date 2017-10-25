@@ -9,6 +9,7 @@ const browserHistory = useBasename(createHistory)({
 });
 
 import './js/styles/base.scss';
+
 import Layout from "./components/Layout";
 
 const app = document.getElementById('app');
