@@ -15,7 +15,7 @@ export class Livebackground extends Component {
             backgroundImage: "url("+this.props.bg+")"
         };
         return(
-            <div id="backgroundImage" style={bg}></div>
+            <div className="backgroundImage" style={bg}></div>
         )
     }
 }

@@ -5,4 +5,4 @@ npm install
 
 yarn start to get everything running locally
 
-yarn build to build a deployable repo called "build"
+yarn build to build a folder called "build"

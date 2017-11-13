@@ -5,14 +5,15 @@
 @import "type";
 @import "transitions";
 
+
 // GENERAL
 html, body {
 	height:100%;
 	color: $coal;
 }
 body {
-	opacity: 0;
-	transition: opacity 300ms;
+opacity: 0;
+transition: opacity 300ms;
 	&.loaded {
 		opacity: 1;
 	}
@@ -73,7 +74,6 @@ a, button, [class^=icon]{
 	padding: 20px 0;
 	a {
 		margin-right: 20px;
-		
 	}
 }
 .global-header {
@@ -107,7 +107,7 @@ a, button, [class^=icon]{
 		}
 	}
 }
-#backgroundImage {
+.backgroundImage {
 	width: 100vw;
 	height: 100%;
 	background-size: cover;
@@ -127,6 +127,5 @@ a, button, [class^=icon]{
 		background: linear-gradient(to bottom,  rgba(255,255,255,.85) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 	}
-	
-	
 }
+@import "cards";

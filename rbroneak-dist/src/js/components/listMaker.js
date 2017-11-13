@@ -2,14 +2,15 @@ import React from "react";
 
 function ListMaker(props){
     return (
-        <ul>
+        <section className="align-left-top primary-content">
+            <div className="flex-wrap">
             {
                 props.list.map((listValue, index) => {
-                    return <li key={index}>{listValue}</li>;
+                    return <div className="card" key={index}>{listValue}</div>;
                 })
             }
-
-        </ul>
+            </div>
+        </section>
     )
 
 };

@@ -14,7 +14,7 @@
 	-moz-transform: translateY(0);
 	-o-transform: translateY(0);
 	-ms-transform: translateY(0);
-	transition: all 0.3s linear;
+	transition: all 0.2s linear;
 }
 .SlideIn-enter {
 	opacity: 0;
@@ -31,7 +31,7 @@
 	-moz-transform: translateY(0);
 	-o-transform: translateY(0);
 	-ms-transform: translateY(0);
-	transition: all 0.2s ease;
+	transition: all 0.1s ease;
 }
 .SlideIn-leave {
 	opacity: 1.0;

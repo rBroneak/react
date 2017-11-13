@@ -22,7 +22,16 @@
 		}
 	}
 }
-
+.flex-wrap {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: auto;
+	@media (min-width: 600px) {
+		justify-content: flex-start;
+	}
+	
+}
 // GRID
 .full-width {
 	width: 100%;

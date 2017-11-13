@@ -23,6 +23,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "firebase": "^4.6.2",
     "react": "^16.0.0"
   }
 }

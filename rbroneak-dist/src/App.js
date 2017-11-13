@@ -18,4 +18,4 @@ ReactDOM.render(
     <Router history={browserHistory}>
         <Layout/>
     </Router>,
-    app);
+app);
